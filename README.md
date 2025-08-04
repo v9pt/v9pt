@@ -1,75 +1,58 @@
-<h1 align="center">Hi 👋, I'm Huzaifa Mulla</h1>
-<h3 align="center">✨DSA & AI Enthusiast | Building with Vision ✨</h3>
+# Hi there, I'm Huzaifa Mulla 👋
 
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&pause=1000&center=true&width=435&lines=Java+%7C+Python+%7C+React+%7C+AI+%7C+OpenCV;Building+cool+stuff+with+code;Leetcode+Grinder+%F0%9F%94%A5;Always+Learning+%F0%9F%93%9A" alt="Typing SVG" />
-</p>
+🚀 Computer Science Engineering Student | Full Stack Developer | Competitive Programmer
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Google%20SDE%20in%20Progress-%230096C7.svg?style=for-the-badge&logo=google&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Open%20Source-Contributor-%23FF4500?style=for-the-badge&logo=github"/>
-  <img src="https://img.shields.io/badge/Lifelong-Learner-%2300C853?style=for-the-badge"/>
-</p>
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/your-profile)
+[![Codeforces](https://img.shields.io/badge/Codeforces-1F8ACB?style=for-the-badge&logo=codeforces&logoColor=white)](https://codeforces.com/profile/your-handle)
+[![LeetCode](https://img.shields.io/badge/-LeetCode-FFA116?style=for-the-badge&logo=LeetCode&logoColor=black)](https://leetcode.com/your-profile/)
 
----
+## 🔥 My Tech Stack
 
-### 🚀 About Me
+### Programming Languages
+![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white)
+![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white)
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
 
-- 🎓 CS Undergrad | Passionate about **Software Development & AI**
-- 💻 Currently working on: `Facial Emotion Recognition` using OpenCV + Deep Learning
-- 🔍 Exploring: `System Design`, `Web Dev`, `ML`, and `DSA` (Java)
-- 💡 2025 Goal: **Crack Google, build impactful open-source projects**
-- 🛠️ Always up for a good **bug hunt** and performance optimization
-- 🧠 Motto: *Learn. Build. Iterate. Repeat.*
+### Web Development
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white)
+![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
+![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB)
+![Spring](https://img.shields.io/badge/spring-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white)
 
+### Databases
+![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)
+![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white)
+![DynamoDB](https://img.shields.io/badge/Amazon%20DynamoDB-4053D6?style=for-the-badge&logo=Amazon%20DynamoDB&logoColor=white)
 
----
+### Cloud & DevOps
+![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white)
+![Azure](https://img.shields.io/badge/azure-%230072C6.svg?style=for-the-badge&logo=microsoftazure&logoColor=white)
+![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
 
-### 🛠️ Tech Stack
+## 🏆 Competitive Programming Achievements
+- Codeforces: **Max Rating 1348** (Top 15%)
+- CodeChef: **4-star** (★★★☆)
+- HackerRank: **5-star** in C, C++, Java
 
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=java,python,react,opencv,html,css,js,git,github,vscode,linux,figma&theme=light"/>
-</p>
+## 📈 GitHub Stats
+![Your GitHub stats](https://github-readme-stats.vercel.app/api?username=v9pt&show_icons=true&theme=radical)
 
----
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=v9pt&layout=compact&theme=radical)
 
-### 📊 GitHub Stats
+## 🔥 Streak Stats
+![GitHub Streak](https://streak-stats.demolab.com/?user=v9pt&theme=radical)
 
-<div align="center">
-  <img width="48%" src="https://github-readme-stats.vercel.app/api?username=v9pt&show_icons=true&theme=radical&rank_icon=github&include_all_commits=true&hide=issues" />
-  <img width="48%" src="https://github-readme-streak-stats.herokuapp.com/?user=v9pt&theme=radical"/>
-  <br/>
-  <img width="40%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=v9pt&layout=compact&theme=radical&langs_count=6"/>
-</div>
+## 🚀 Featured Projects
+1. [GameTracker](https://github.com/v9pt/GameTracker) - MERN stack app for tracking games
+2. [DiseaseDiagnoser](https://github.com/v9pt/DiseaseDiagnoser) - ML-powered disease prediction
+3. [Gym DBMS](https://github.com/v9pt/Gym-DBMS) - Database system for NSUT's Gymnasium
 
----
-
-### 🌐 Connect With Me
-
-<p align="center">
-  <a href="mailto:vexon.ru@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
-  <a href="https://www.linkedin.com/in/huzaifamulla" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
-  <a href="https://leetcode.com/u/v9pt" target="_blank"><img src="https://img.shields.io/badge/LeetCode-%23FFA116?style=for-the-badge&logo=leetcode&logoColor=black"/></a>
-</p>
-
----
-
-### 🔥 Recent Highlights
-
-
-1. 🎯 Solved 100+ DSA problems on LeetCode this month  
-2. 🤖 Improved FER model accuracy by 10% using CNN tweaks  
-3. 📦 Contributed to Open Source – ML & Web Projects  
-
-
----
-
-### 🧠 Quote I Live By
-
-> “The best way to predict the future is to invent it.” – Alan Kay
-
----
-
-### ⭐ Show Some Love
-
-If you like what I do, maybe give a ⭐ to my pinned repositories!
+## 🌱 Currently Learning
+- Advanced Machine Learning concepts
+- Cloud Architecture on AWS
+- Distributed Systems
