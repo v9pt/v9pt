@@ -1,93 +1,67 @@
-# Hi there, I'm Huzaifa Mulla 👋 
 
-<!-- Animated typing effect -->
-<div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=22D3EE&width=435&lines=Computer+Science+Student;Full+Stack+Developer;Competitive+Programmer;Machine+Learning+Enthusiast" alt="Typing SVG" />
-</div>
-
-<!-- Social badges with animation -->
+<h1 align="center">Yo 👋 I'm Huzaifa Mulla</h1>
 <p align="center">
-  
-  <a href="https://leetcode.com/your-profile/">
-    <img src="https://img.shields.io/badge/-LeetCode-FFA116?style=for-the-badge&logo=LeetCode&logoColor=black&labelColor=101010" alt="LeetCode" />
-  </a>
-  <a href="https://github.com/v9pt">
-    <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white&labelColor=101010" alt="GitHub" />
-  </a>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&center=true&vCenter=true&multiline=true&width=500&lines=Full+Stack+Developer+%F0%9F%92%BB;ML+Enthusiast+%F0%9F%A7%9C%F0%9F%8F%BB%E2%99%82%EF%B8%8F;Competitive+Programmer+%F0%9F%92%80;Always+Learning+New+Stuff+%F0%9F%93%9A;Making+Projects+That+Slap+%F0%9F%AA%9C" alt="Typing SVG" />
 </p>
 
-<!-- Animated divider -->
-<img src="https://github.com/v9pt/v9pt/blob/output/github-contribution-grid-snake.svg" alt="snake gif" />
+---
 
-## 🔥 My Tech Stack
+## 🧠 About Me
 
-<!-- Animated tech stack cards -->
-<div align="center">
-  
-### Programming Languages
-<div>
-  <img src="https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white" alt="C" />
-  <img src="https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="C++" />
-  <img src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54" alt="Python" />
-  <img src="https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
-  <img src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E" alt="JavaScript" />
-  <img src="https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
-</div>
+```diff
++ 🎓 Computer Engineering @ NSUT
++ 💥 Building scalable apps & solving real-world problems
++ 🧩 Loves exploring new tech, especially ML + AR + Blockchain
++ 🚀 Final year project? Gonna blow some minds.
+```
 
-### Web Development
-<div>
-  <img src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB" alt="React" />
-  <img src="https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white" alt="Next.js" />
-  <img src="https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js" />
-  <img src="https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB" alt="Express.js" />
-  <img src="https://img.shields.io/badge/spring-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white" alt="Spring" />
-</div>
+---
 
-<!-- Animated database icons -->
-### Databases
-<div>
-  <img src="https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB" />
-  <img src="https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL" />
-  <img src="https://img.shields.io/badge/Amazon%20DynamoDB-4053D6?style=for-the-badge&logo=Amazon%20DynamoDB&logoColor=white" alt="DynamoDB" />
-</div>
+## 🌐 Connect with Me
 
-<!-- Cloud with pulse animation -->
-### Cloud & DevOps
-<div>
-  <img src="https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white" alt="AWS" />
-  <img src="https://img.shields.io/badge/azure-%230072C6.svg?style=for-the-badge&logo=microsoftazure&logoColor=white" alt="Azure" />
-  <img src="https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
-  <img src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
-</div>
-</div>
+<p align="center">
+  <a href="https://linkedin.com/in/your-profile" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-%230077B5?style=flat&logo=linkedin&logoColor=white&labelColor=black" alt="LinkedIn"></a>
+  <a href="https://codeforces.com/profile/your-handle" target="_blank"><img src="https://img.shields.io/badge/Codeforces-competitive-blue?style=flat&logo=codeforces&logoColor=white" alt="Codeforces"></a>
+  <a href="https://leetcode.com/your-profile" target="_blank"><img src="https://img.shields.io/badge/LeetCode-Level%20Up-orange?style=flat&logo=leetcode&logoColor=black" alt="LeetCode"></a>
+  <a href="https://github.com/v9pt" target="_blank"><img src="https://img.shields.io/badge/GitHub-Follow_me-181717?style=flat&logo=github&logoColor=white" alt="GitHub"></a>
+</p>
 
-<!-- Animated trophy case -->
-## 🏆 Competitive Programming Achievements
-<div align="center">
-  
-| Platform       | Achievement | Badge |
-|----------------|------------|-------|
-| Codeforces     | Max Rating 1348 (Top 15%) | ![Codeforces](https://img.shields.io/badge/Codeforces-1F8ACB?style=flat-square&logo=codeforces&logoColor=white) |
-| CodeChef       | 4-star (★★★☆) | ![CodeChef](https://img.shields.io/badge/CodeChef-%23964B00.svg?style=flat-square&logo=CodeChef&logoColor=white) |
-| HackerRank     | 5-star in C, C++, Java | ![HackerRank](https://img.shields.io/badge/-HackerRank-2EC866?style=flat-square&logo=HackerRank&logoColor=white) |
+---
 
-</div>
+## 🚨 Tech Stack Incoming...
 
-<!-- Dynamic GitHub stats with glow effect -->
-## 📈 GitHub Analytics
-<div align="center">
-  
-![Your GitHub stats](https://github-readme-stats.vercel.app/api?username=v9pt&show_icons=true&theme=radical&include_all_commits=true&count_private=true&line_height=24)
+### 💻 Languages
+![C](https://img.shields.io/badge/C-blue.svg?style=for-the-badge&logo=c&logoColor=white)
+![C++](https://img.shields.io/badge/C++-blue.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white)
+![Python](https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue)
+![Java](https://img.shields.io/badge/Java-orange?style=for-the-badge&logo=openjdk&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-yellow?style=for-the-badge&logo=javascript&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=v9pt&layout=compact&theme=radical&langs_count=8&hide=html,css)
+### 🌐 Frontend / Backend
+![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+![Next.js](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
+![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)
+![Spring](https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white)
 
-<!-- GitHub streak stats with fire animation -->
-[![GitHub Streak](https://streak-stats.demolab.com?user=v9pt&theme=radical&fire=DD2727&ring=DD7230)](https://git.io/streak-stats)
+### 🧠 Databases
+![MongoDB](https://img.shields.io/badge/MongoDB-4ea94b?style=for-the-badge&logo=mongodb&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-00758F?style=for-the-badge&logo=mysql&logoColor=white)
+![DynamoDB](https://img.shields.io/badge/DynamoDB-4053D6?style=for-the-badge&logo=amazon-dynamodb&logoColor=white)
 
-<!-- GitHub trophy case -->
-![trophy](https://github-profile-trophy.vercel.app/?username=v9pt&theme=radical&no-frame=true&row=2&column=4)
+### ☁️ Cloud / DevOps
+![AWS](https://img.shields.io/badge/AWS-orange?style=for-the-badge&logo=amazonaws&logoColor=white)
+![Azure](https://img.shields.io/badge/Azure-blue?style=for-the-badge&logo=microsoftazure&logoColor=white)
+![Git](https://img.shields.io/badge/Git-E44C30?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-black?style=for-the-badge&logo=github&logoColor=white)
 
-</div>
+---
 
+## 🏆 Competitive Coding Flex
 
-
+| Platform   | Badge | Achievement |
+|------------|--------|-------------|
+| Codeforces | ![](https://img.shields.io/badge/1348-blue?style=flat-square&logo=codeforces&logoColor=white) | Max Rating 1348 (Top 15%) |
+| CodeChef   | ![](https://img.shields.io/badge/4%E2%AD%90%EF%B8%8F-orange?style=flat-square&logo=codechef) | 4★ Rated |
+| HackerRank | ![](https://img.shields.io/badge/5%E2%AD%90%20C%2FC%2B%2B%2FJava-2EC866?style=flat-square&logo=hackerrank&logoColor=white) | 5★ in C, C++, Java |
