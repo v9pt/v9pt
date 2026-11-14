@@ -5,7 +5,6 @@
 <p align="center">
   <a href="https://linkedin.com/in/huzaifa-mulla-859ba2196"><b>LinkedIn</b></a> &nbsp;·&nbsp;
   <a href="mailto:huzaifa4g@gmail.com"><b>Email</b></a> &nbsp;·&nbsp;
-  <a href="https://chromewebstore.google.com/detail/capsule-hub-by-tilantra/ngeoeefidomejcdhiecidpaalfoekjbh"><b>CapsuleHub (live)</b></a>
 </p>
 
 <p align="center">
