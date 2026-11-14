@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 340" width="1200" height="340" role="img" aria-label="Huzaifa Mulla, full-stack and AI engineer">
+  <title>Huzaifa Mulla</title>
+  <style>
+    .mono { font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace; }
+
+    /* graph: a BFS wave travels from the left node to the right node */
+    .e { stroke: #26262c; stroke-width: 1.5; animation: edge 7s linear infinite; }
+    .n { fill: #2e2e36; transform-box: fill-box; transform-origin: center; animation: node 7s linear infinite; }
+    @keyframes node {
+      0%   { fill: #2e2e36; transform: scale(1); }
+      3%   { fill: #ff4d4d; transform: scale(1.9); }
+      10%  { fill: #c1121f; transform: scale(1.2); }
+      45%  { fill: #8b0000; transform: scale(1); }
+      70%, 100% { fill: #2e2e36; transform: scale(1); }
+    }
+    @keyframes edge {
+      0%   { stroke: #26262c; }
+      4%   { stroke: #ff4d4d; }
+      45%  { stroke: #5c0a0a; }
+      70%, 100% { stroke: #26262c; }
+    }
+    .l0 { animation-delay: 0.6s; }  .l1 { animation-delay: 1.0s; }  .l2 { animation-delay: 1.4s; }
+    .l3 { animation-delay: 1.8s; }  .l4 { animation-delay: 2.2s; }  .l5 { animation-delay: 2.6s; }
+    .l6 { animation-delay: 3.0s; }  .l7 { animation-delay: 3.4s; }  .l8 { animation-delay: 3.8s; }
+    .k0 { animation-delay: 0.8s; }  .k1 { animation-delay: 1.2s; }  .k2 { animation-delay: 1.6s; }
+    .k3 { animation-delay: 2.0s; }  .k4 { animation-delay: 2.4s; }  .k5 { animation-delay: 2.8s; }
+    .k6 { animation-delay: 3.2s; }  .k7 { animation-delay: 3.6s; }
+
+    /* name: outline is drawn first, then the fill arrives */
+    .name {
+      font-size: 78px; font-weight: 700; letter-spacing: 8px;
+      fill: #f5f5f7; stroke: #ff4d4d; stroke-width: 1.4;
+      stroke-dasharray: 700; stroke-dashoffset: 0; stroke-opacity: 0;
+      animation: draw 3.2s ease-out 0.2s both;
+    }
+    @keyframes draw {
+      0%   { stroke-dashoffset: 700; stroke-opacity: 1; fill-opacity: 0; }
+      60%  { stroke-dashoffset: 0;   stroke-opacity: 1; fill-opacity: 0; }
+      100% { stroke-dashoffset: 0;   stroke-opacity: 0; fill-opacity: 1; }
+    }
+
+    /* roles: four lines take turns */
+    .role { font-size: 24px; fill: #ff6b6b; opacity: 0; animation: role 14s ease-in-out infinite; }
+    .r1 { animation-delay: 2.6s; } .r2 { animation-delay: 6.1s; }
+    .r3 { animation-delay: 9.6s; } .r4 { animation-delay: 13.1s; }
+    @keyframes role {
+      0%   { opacity: 0; transform: translateY(10px); }
+      3%   { opacity: 1; transform: translateY(0); }
+      22%  { opacity: 1; transform: translateY(0); }
+      25%  { opacity: 0; transform: translateY(-10px); }
+      100% { opacity: 0; transform: translateY(-10px); }
+    }
+
+    .meta { font-size: 15px; fill: #7a7a85; letter-spacing: 2px; }
+    .bar { animation: bar 3.2s ease-out 0.2s both; transform-box: fill-box; transform-origin: center; }
+    @keyframes bar { 0%, 55% { transform: scaleX(0); } 100% { transform: scaleX(1); } }
+
+    @media (prefers-reduced-motion: reduce) {
+      .e, .n, .name, .role, .bar { animation: none; }
+      .r1 { opacity: 1; }
+    }
+  </style>
+
+  <rect x="1" y="1" width="1198" height="338" rx="20" fill="#0b0b0d" stroke="#1e1e22" stroke-width="2"/>
+
+  <!-- edges -->
+  <g fill="none">
+    <line class="e k0" x1="90" y1="170" x2="190" y2="80"/>
+    <line class="e k0" x1="90" y1="170" x2="200" y2="265"/>
+    <line class="e k1" x1="190" y1="80" x2="200" y2="265"/>
+    <line class="e k1" x1="190" y1="80" x2="330" y2="50"/>
+    <line class="e k1" x1="200" y1="265" x2="350" y2="290"/>
+    <line class="e k2" x1="330" y1="50" x2="480" y2="72"/>
+    <line class="e k2" x1="350" y1="290" x2="500" y2="282"/>
+    <line class="e k3" x1="480" y1="72" x2="640" y2="44"/>
+    <line class="e k3" x1="500" y1="282" x2="650" y2="302"/>
+    <line class="e k4" x1="640" y1="44" x2="800" y2="68"/>
+    <line class="e k4" x1="650" y1="302" x2="810" y2="286"/>
+    <line class="e k5" x1="800" y1="68" x2="950" y2="50"/>
+    <line class="e k5" x1="810" y1="286" x2="960" y2="292"/>
+    <line class="e k6" x1="950" y1="50" x2="1050" y2="90"/>
+    <line class="e k6" x1="960" y1="292" x2="1060" y2="255"/>
+    <line class="e k7" x1="1050" y1="90" x2="1060" y2="255"/>
+    <line class="e k7" x1="1050" y1="90" x2="1120" y2="170"/>
+    <line class="e k7" x1="1060" y1="255" x2="1120" y2="170"/>
+  </g>
+
+  <!-- nodes -->
+  <g>
+    <circle class="n l0" cx="90" cy="170" r="6"/>
+    <circle class="n l1" cx="190" cy="80" r="5"/>
+    <circle class="n l1" cx="200" cy="265" r="5"/>
+    <circle class="n l2" cx="330" cy="50" r="5"/>
+    <circle class="n l2" cx="350" cy="290" r="5"/>
+    <circle class="n l3" cx="480" cy="72" r="5"/>
+    <circle class="n l3" cx="500" cy="282" r="5"/>
+    <circle class="n l4" cx="640" cy="44" r="5"/>
+    <circle class="n l4" cx="650" cy="302" r="5"/>
+    <circle class="n l5" cx="800" cy="68" r="5"/>
+    <circle class="n l5" cx="810" cy="286" r="5"/>
+    <circle class="n l6" cx="950" cy="50" r="5"/>
+    <circle class="n l6" cx="960" cy="292" r="5"/>
+    <circle class="n l7" cx="1050" cy="90" r="5"/>
+    <circle class="n l7" cx="1060" cy="255" r="5"/>
+    <circle class="n l8" cx="1120" cy="170" r="6"/>
+  </g>
+
+  <text class="mono name" x="604" y="178" text-anchor="middle">HUZAIFA MULLA</text>
+  <rect class="bar" x="540" y="198" width="120" height="3" rx="1.5" fill="#c1121f"/>
+
+  <g class="mono" text-anchor="middle">
+    <text class="role r1" x="600" y="240">&gt; full-stack &amp; iOS engineer</text>
+    <text class="role r2" x="600" y="240">&gt; AI context management / LLM integration</text>
+    <text class="role r3" x="600" y="240">&gt; Swift + React Native, FastAPI + Node.js</text>
+    <text class="role r4" x="600" y="240">&gt; Codeforces Specialist · CodeChef 4★</text>
+  </g>
+</svg>

@@ -1,0 +1,147 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 380" width="1200" height="380" role="img" aria-label="Animated segment tree answering the range query 2 to 5 using two nodes">
+  <title>Segment tree range query</title>
+  <style>
+    .mono { font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace; }
+    .edge { stroke: #26262c; stroke-width: 1.5; }
+    .box { fill: #131317; stroke: #2e2e36; stroke-width: 1.5; }
+    .lbl { font-size: 17px; fill: #c9c9d1; text-anchor: middle; }
+    .title { font-size: 20px; fill: #f5f5f7; }
+    .sub { font-size: 16px; fill: #7a7a85; }
+    .cell { fill: #131317; stroke: #2e2e36; stroke-width: 1.5; }
+    .idx { font-size: 14px; fill: #5d5d68; text-anchor: middle; }
+
+    /* partially covered node: flash, then stay lit as "visited" */
+    .visit .box { animation: visit 9s linear infinite; }
+    @keyframes visit {
+      0%   { stroke: #2e2e36; }
+      4%   { stroke: #f5f5f7; }
+      12%, 72% { stroke: #6b6b78; }
+      84%, 100% { stroke: #2e2e36; }
+    }
+    /* fully covered node: taken into the answer */
+    .take .box { animation: take 9s linear infinite; }
+    @keyframes take {
+      0%   { fill: #131317; stroke: #2e2e36; }
+      4%   { fill: #ff4d4d; stroke: #ff4d4d; }
+      12%, 72% { fill: #8b0000; stroke: #ff4d4d; }
+      84%, 100% { fill: #131317; stroke: #2e2e36; }
+    }
+    /* node outside the range: pruned */
+    .skip { animation: skip 9s linear infinite; }
+    @keyframes skip {
+      0%   { opacity: 1; }
+      6%, 72% { opacity: 0.28; }
+      84%, 100% { opacity: 1; }
+    }
+    /* array cells inside the range */
+    .hit { animation: hit 9s linear infinite; }
+    @keyframes hit {
+      0%   { fill: #131317; stroke: #2e2e36; }
+      5%, 72% { fill: #3a0606; stroke: #ff4d4d; }
+      84%, 100% { fill: #131317; stroke: #2e2e36; }
+    }
+    .res { opacity: 0; animation: res 9s linear infinite; }
+    @keyframes res {
+      0%   { opacity: 0; }
+      5%, 68% { opacity: 1; }
+      78%, 100% { opacity: 0; }
+    }
+
+    .t0 .box, .t0 { animation-delay: 0.6s; }
+    .t1 .box, .t1 { animation-delay: 1.3s; }
+    .t2 .box, .t2 { animation-delay: 2.0s; }
+    .t3 { animation-delay: 2.7s; }
+    .t4 { animation-delay: 3.3s; }
+
+    @media (prefers-reduced-motion: reduce) {
+      .visit .box, .take .box, .skip, .hit, .res { animation: none; }
+      .take .box { fill: #8b0000; stroke: #ff4d4d; }
+      .hit { fill: #3a0606; stroke: #ff4d4d; }
+      .skip { opacity: 0.28; }
+      .res { opacity: 1; }
+    }
+  </style>
+
+  <rect x="1" y="1" width="1198" height="378" rx="20" fill="#0b0b0d" stroke="#1e1e22" stroke-width="2"/>
+
+  <text class="mono title" x="40" y="48">query(2, 5)</text>
+  <text class="mono sub" x="40" y="72">segment tree, n = 8</text>
+  <text class="mono sub res t4" x="1160" y="48" text-anchor="end" style="fill:#ff6b6b">2 nodes cover 4 elements</text>
+  <text class="mono sub res t4" x="1160" y="72" text-anchor="end">O(log n), not O(n)</text>
+
+  <!-- edges -->
+  <g>
+    <line class="edge" x1="600" y1="77" x2="360" y2="113"/>
+    <line class="edge" x1="600" y1="77" x2="840" y2="113"/>
+    <line class="edge" x1="360" y1="147" x2="240" y2="183"/>
+    <line class="edge" x1="360" y1="147" x2="480" y2="183"/>
+    <line class="edge" x1="840" y1="147" x2="720" y2="183"/>
+    <line class="edge" x1="840" y1="147" x2="960" y2="183"/>
+    <line class="edge" x1="240" y1="217" x2="180" y2="253"/>
+    <line class="edge" x1="240" y1="217" x2="300" y2="253"/>
+    <line class="edge" x1="480" y1="217" x2="420" y2="253"/>
+    <line class="edge" x1="480" y1="217" x2="540" y2="253"/>
+    <line class="edge" x1="720" y1="217" x2="660" y2="253"/>
+    <line class="edge" x1="720" y1="217" x2="780" y2="253"/>
+    <line class="edge" x1="960" y1="217" x2="900" y2="253"/>
+    <line class="edge" x1="960" y1="217" x2="1020" y2="253"/>
+  </g>
+
+  <!-- level 0 -->
+  <g class="visit t0">
+    <rect class="box" x="555" y="43" width="90" height="34" rx="8"/>
+    <text class="mono lbl" x="600" y="65">[0, 7]</text>
+  </g>
+
+  <!-- level 1 -->
+  <g class="visit t1">
+    <rect class="box" x="315" y="113" width="90" height="34" rx="8"/>
+    <text class="mono lbl" x="360" y="135">[0, 3]</text>
+  </g>
+  <g class="visit t1">
+    <rect class="box" x="795" y="113" width="90" height="34" rx="8"/>
+    <text class="mono lbl" x="840" y="135">[4, 7]</text>
+  </g>
+
+  <!-- level 2 -->
+  <g class="skip t2">
+    <rect class="box" x="195" y="183" width="90" height="34" rx="8"/>
+    <text class="mono lbl" x="240" y="205">[0, 1]</text>
+  </g>
+  <g class="take t2">
+    <rect class="box" x="435" y="183" width="90" height="34" rx="8"/>
+    <text class="mono lbl" x="480" y="205" style="fill:#f5f5f7">[2, 3]</text>
+  </g>
+  <g class="take t2">
+    <rect class="box" x="675" y="183" width="90" height="34" rx="8"/>
+    <text class="mono lbl" x="720" y="205" style="fill:#f5f5f7">[4, 5]</text>
+  </g>
+  <g class="skip t2">
+    <rect class="box" x="915" y="183" width="90" height="34" rx="8"/>
+    <text class="mono lbl" x="960" y="205">[6, 7]</text>
+  </g>
+
+  <!-- leaves, drawn as the underlying array -->
+  <g>
+    <g class="skip t2"><rect class="cell" x="150" y="253" width="60" height="40" rx="6"/><text class="mono lbl" x="180" y="279">7</text></g>
+    <g class="skip t2"><rect class="cell" x="270" y="253" width="60" height="40" rx="6"/><text class="mono lbl" x="300" y="279">2</text></g>
+    <g><rect class="cell hit t3" x="390" y="253" width="60" height="40" rx="6"/><text class="mono lbl" x="420" y="279">9</text></g>
+    <g><rect class="cell hit t3" x="510" y="253" width="60" height="40" rx="6"/><text class="mono lbl" x="540" y="279">4</text></g>
+    <g><rect class="cell hit t3" x="630" y="253" width="60" height="40" rx="6"/><text class="mono lbl" x="660" y="279">1</text></g>
+    <g><rect class="cell hit t3" x="750" y="253" width="60" height="40" rx="6"/><text class="mono lbl" x="780" y="279">8</text></g>
+    <g class="skip t2"><rect class="cell" x="870" y="253" width="60" height="40" rx="6"/><text class="mono lbl" x="900" y="279">3</text></g>
+    <g class="skip t2"><rect class="cell" x="990" y="253" width="60" height="40" rx="6"/><text class="mono lbl" x="1020" y="279">6</text></g>
+  </g>
+  <g class="mono">
+    <text class="idx" x="180" y="314">0</text><text class="idx" x="300" y="314">1</text>
+    <text class="idx" x="420" y="314">2</text><text class="idx" x="540" y="314">3</text>
+    <text class="idx" x="660" y="314">4</text><text class="idx" x="780" y="314">5</text>
+    <text class="idx" x="900" y="314">6</text><text class="idx" x="1020" y="314">7</text>
+  </g>
+
+  <!-- range bracket under the covered cells -->
+  <g class="res t3">
+    <path d="M390 330 v8 h420 v-8" fill="none" stroke="#ff4d4d" stroke-width="1.5"/>
+    <text class="mono sub" x="600" y="360" text-anchor="middle" style="fill:#ff6b6b">sum = 9 + 4 + 1 + 8 = 22</text>
+  </g>
+</svg>
